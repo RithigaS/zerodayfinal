@@ -21,6 +21,7 @@
 .navbar-links {
   display: flex;
   gap: 1rem;
+  color: #c9bfbf;
   align-items: center;
   flex-wrap: wrap;
   margin-top: 0.5rem;
@@ -34,8 +35,9 @@
   padding: 0.4rem 0.9rem;
   cursor: pointer;
   transition: all 0.3s ease;
+  color: azure;
   border-radius: var(--radius-lg);
-  font-family: var(--font-body);
+  font-family: system-ui;
 }
 
 /* Base Button */

@@ -1,4 +1,3 @@
-// Hero.tsx
 "use client";
 
 import { useRouter } from "next/navigation";
@@ -57,7 +56,7 @@ export default function Hero() {
       ) : (
         <div className="hero-actions">
           <button className="hero-btn" onClick={() => router.push("/login")}>
-            🔐 Login to Access
+            Login to Access
           </button>
         </div>
       )}

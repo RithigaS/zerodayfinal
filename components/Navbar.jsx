@@ -43,17 +43,17 @@ export default function Navbar() {
                   userRole.charAt(0).toUpperCase() + userRole.slice(1)}
               </span>
               <button className="btn btn-logout" onClick={() => signOut()}>
-                🚪 Logout
+                Logout
               </button>
             </div>
           </>
         ) : (
           <>
             <Link className="btn btn-login" href="/login">
-              🔐 Login
+              Login
             </Link>
             <Link className="btn btn-register" href="/register">
-              📝 Register
+              Register
             </Link>
           </>
         )}
